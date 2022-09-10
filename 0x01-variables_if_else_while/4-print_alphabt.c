@@ -1,3 +1,13 @@
+/*
+ *
+ *  * File: 4-print_alphabt.c
+ *
+ *   * Auth: Brennan D Baraban
+ *
+ *    */
+
+
+
 #include <stdio.h>
 
 
@@ -13,29 +23,29 @@
  *     */
 
 int main(void)
-
+	
 {
 
-		char letter;
+	char letter;
 
 
 
-			for (letter = 'a'; letter <= 'z'; letter++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 
-					{
-
-								if (letter != 'e' && letter != 'q')
-
-												putchar(letter);
-
-									}
-
-
-
-				putchar('\n');
+	{
+	
+			if (letter != 'e' && letter != 'q')
+	
+				putchar(letter);
+	
+		}
 
 
 
-					return (0);
+	putchar('\n');
+
+
+
+	return (0);
 
 }
