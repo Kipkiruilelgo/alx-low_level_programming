@@ -3,7 +3,7 @@
 
 /**
 
-*void prototypes()
+* void prototypes()
 * int prototypes()
 */
 
